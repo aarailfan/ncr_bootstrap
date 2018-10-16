@@ -1,0 +1,21 @@
+{
+  "name": "aarailfan/ncr_bootstrap",
+  "description": "A Drupal 8 bootstrap subtheme built for https://www.ncr-nmra.org.",
+  "type": "drupal-theme",
+  "license": "GPL-2.0",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/aarailfan/ncr_bootstrap"
+    }
+  ],
+  "require": {
+    "drupal/bootstrap": "^3.13"
+  },
+  "authors": [
+    {
+      "name": "David Simmons",
+      "role": "Maintainer"
+    }
+  ]
+}
