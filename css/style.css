@@ -182,6 +182,19 @@ a:active {
 .form-control {
     padding: 0 15px;
 }
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 @media only screen and (min-width : 768px) {
   div.region.region-header a.name.navbar-brand,
